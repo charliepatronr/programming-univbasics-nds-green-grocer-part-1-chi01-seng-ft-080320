@@ -43,6 +43,7 @@ def consolidate_cart(cart)
     
   
   cart.each do |item|
+    if(item[:item] ==)
     binding.pry
   end 
   # while counter < cart.length do 
