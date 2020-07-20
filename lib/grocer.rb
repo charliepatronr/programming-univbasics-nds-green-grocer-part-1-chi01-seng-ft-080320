@@ -19,6 +19,7 @@ def consolidate_cart(cart)
   final_arr = []
   cart_comp = cart
   
+  # Returns new_arr with every item in cart
   cart.each do |value|
     new_arr.push(value[:item])
   end 
