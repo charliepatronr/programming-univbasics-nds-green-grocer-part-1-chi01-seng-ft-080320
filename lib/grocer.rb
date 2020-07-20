@@ -24,6 +24,7 @@ def consolidate_cart(cart)
     new_arr.push(value[:item])
   end 
 
+  #returns a hash with item and quantity present using new_arr
  while counter < new_arr.length do 
    if (new_arr[counter] == new_arr[counter +1])
      target +=1
