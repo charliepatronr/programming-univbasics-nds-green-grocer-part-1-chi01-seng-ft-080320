@@ -41,7 +41,7 @@ def consolidate_cart(cart)
     
     
   
-  cart.each do |item|
+  cart_comp.each do |item|
     if(item[:item] == key && !final_arr.any?{ |element| element[:item] == key} )
       final_arr.push(item)
     end 
