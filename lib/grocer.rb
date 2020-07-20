@@ -16,9 +16,7 @@ def consolidate_cart(cart)
   counter =0
   new_arr =[]
   target = 1
-  final_arr = [ {:item => "AVOCADO", :price => 3.00, :clearance => true },
-  {:item => "AVOCADO", :price => 3.00, :clearance => true },
-  {:item => "KALE", :price => 3.00, :clearance => false} ]
+  final_arr = []
   
   cart.each do |value|
     new_arr.push(value[:item])
