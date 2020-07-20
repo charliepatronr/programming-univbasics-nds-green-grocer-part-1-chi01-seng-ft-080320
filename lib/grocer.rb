@@ -39,12 +39,19 @@ def consolidate_cart(cart)
  counter = 0 
  new_hash.each do |key, value|
     puts !final_arr.any?{ |element| element[:item] == key}
-er +=1
-  end   # while counter < cart.length do 
-    if (cart[counter][:item] == key && !final_arr.include?(:item => key))
-      final_arr.push(cart[counter])
-    end
-    count
+    
+    
+  
+  cart.each do |item|
+    
+  end 
+  # while counter < cart.length do 
+  #   if (cart[counter][:item] == key && !final_arr.include?(:item => key))
+  #     final_arr.push(cart[counter])
+  #   end
+  #   counter +=1
+  # end 
+  
  end
  puts final_arr
 
