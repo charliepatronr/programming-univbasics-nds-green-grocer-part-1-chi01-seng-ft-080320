@@ -40,6 +40,7 @@ def consolidate_cart(cart)
  # Returns arr of hashes  
  #iterates through created hash then iterates through cart_comparison to not mutate original cart 
  #and if the final arr does not already include the current item in cart_comp push it into final_arr with :count key and value from new_hash
+ 
  new_hash.each do |key, value|
     puts !final_arr.any?{ |element| element[:item] == key}
     cart_comp.each do |item|
